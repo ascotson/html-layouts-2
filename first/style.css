@@ -1,0 +1,23 @@
+body {height: auto; margin: 0% 10% 0% 10%;}
+
+.headerDiv {height: 100px; width:31.6%; margin: 20px 0px 10px 0px; display:inline-block;}
+
+#leftBox {background-color: #D50021;}
+
+#centerBox {background-color: #4592DC; margin-left: 20px;}
+
+#rightBox {background-color: #4A4A4A; margin-left: 20px;}
+
+.paraDiv {font-size: 1.5em; margin: 15px 0px 15px 0px;}
+
+.bodyDiv {height: 300px; width: 100%; float:left; margin: margin: 15px 0px 20px 0px;}
+
+#leftBodyBox {width: 31.6%; background-color: #D50021;}
+#rightBodyBox {width: 68.4%; background-color: #4592DC;}
+
+.footerDiv {height: 100px; display: inline-block; float:left; margin: 20px 0px 20px 0px;}
+
+#blueFooterBox {width: 69%; background-color: #4592DC;}
+#redFooterBox {width: 3%; background-color: #D50021;}
+#blackFooterBox {width: 25%; background-color: #4A4A4A;}
+#rightRedFooterBox {width: 3%; background-color: #D50021;}
