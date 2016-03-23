@@ -1,23 +1,92 @@
-body {height: auto; margin: 0% 10% 0% 10%;}
+.container {
+  width: 1000px;
+}
 
-.headerDiv {height: 100px; width:31.6%; margin: 20px 0px 10px 0px; display:inline-block;}
+header {
+  height: 200px;
+  width:1000px;
+}
 
-#leftBox {background-color: #D50021;}
+.leftBox {
+  background-color: #D50021;
+  height: 200px;
+  width: 320px;
+  display: inline-block;
+}
 
-#centerBox {background-color: #4592DC; margin-left: 20px;}
+.centerBox {
+  background-color: #4592DC;
+  height: 200px;
+  width: 320px;
+  display: inline-block;
+  margin-left: 15px;
+}
 
-#rightBox {background-color: #4A4A4A; margin-left: 20px;}
+.rightBox {
+  background-color: #4A4A4A;
+  height: 200px;
+  width: 320px;
+  display: inline-block;
+  margin-left: 15px;
+}
 
-.paraDiv {font-size: 1.5em; margin: 15px 0px 15px 0px;}
+.textbox {
+  height: 500px;
+  width: 1000px;
+}
 
-.bodyDiv {height: 300px; width: 100%; float:left; margin: margin: 15px 0px 20px 0px;}
+p {
+  font-size: 25px;
+}
+.mainBox {
+  height: 600px;
+  width: 1000px;
+}
 
-#leftBodyBox {width: 31.6%; background-color: #D50021;}
-#rightBodyBox {width: 68.4%; background-color: #4592DC;}
+.leftMainBox {
+  background-color: #D50021;
+  height: 600px;
+  width: 320px;
+  float: left;
+}
 
-.footerDiv {height: 100px; display: inline-block; float:left; margin: 20px 0px 20px 0px;}
+.rightMainBox {
+  background-color: #4592DC;
+  height: 600px;
+  width: 680px;
+  float: left;
+}
 
-#blueFooterBox {width: 69%; background-color: #4592DC;}
-#redFooterBox {width: 3%; background-color: #D50021;}
-#blackFooterBox {width: 25%; background-color: #4A4A4A;}
-#rightRedFooterBox {width: 3%; background-color: #D50021;}
+footer {
+  height: 175px;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+.blueFooterBox {
+  background-color: #4592DC;
+  height: 175px;
+  width: 600px;
+  float: left;
+}
+
+.redFooterBox {
+  background-color: #D50021;
+  height: 175px;
+  width: 50px;
+  float: left;
+}
+
+.blackFooterBox {
+  background-color: #4A4A4A;
+  height: 175px;
+  width: 300px;
+  float: left;
+}
+
+.rightRedFooterBox {
+  background-color: #D50021;
+  height: 175px;
+  width: 50px;
+  float: left;
+}
