@@ -1,0 +1,138 @@
+/*
+Project Name: html-layouts-2
+Author: Andrew Scotson @ pleeb.com
+Developed @ DevMtn in Provo
+*/
+
+
+/*-----------------------------------------------------------------------------
+=01 BASE STYLING
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+ /* Clear fix for Floated Divs*/
+
+.clear {
+  clear: both;
+}
+
+/*-----------------------------------------------------------------------------
+=02 LAYOUT STYLING
+-----------------------------------------------------------------------------*/
+
+.container {
+  background-color: lightgray;
+  height: 1425px;
+  width: 1250px;
+  position: relative;
+}
+
+header {
+  background-color: white;
+  height: 325px;
+  width: 1050px;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+p {
+  font-size: 1.5em;
+  padding: 35px;
+  margin: 0 auto;
+}
+
+.redbox {
+  background-color: #D50021;
+  height: 60px;
+  width: 125px;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.redbox p {
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
+  color: white;
+}
+
+.bluebox {
+  background-color: #4592DC;
+  height: 60px;
+  width: 125px;
+  position: absolute;
+  bottom: 30px;
+  left: 175px;
+}
+
+.bluebox p {
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
+  color: white;
+}
+
+.main {
+  background-color: white;
+  height: 850px;
+  width: 1050px;
+  position: absolute;
+  top: 410px;
+  left: 100px;
+}
+
+.imgbox {
+  background-color: #4A4A4A;
+  height: 500px;
+  width: 950px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 30px;
+}
+
+.imgbox p {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  color: white;
+}
+
+.text {
+  height: 200px;
+  width: 950px;
+  position: absolute;
+  bottom: 80px;
+  left: 15px;
+  line-height: 2em;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #4A4A4A;
+  position: absolute;
+  bottom: 0;
+}
+
+ul {
+  padding-right: 75px;
+}
+
+ul li {
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  list-style: none;
+  float: right;
+  color: white;
+}
