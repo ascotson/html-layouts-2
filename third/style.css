@@ -1,0 +1,91 @@
+/*
+Project Name: html-layouts-2
+Author: Andrew Scotson @ pleeb.com
+Developed @ DevMtn in Provo
+*/
+
+
+/*-----------------------------------------------------------------------------
+=01 BASE STYLING
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+ /* Clear fix for Floated Divs*/
+
+.clear {
+  clear: both;
+}
+
+/*-----------------------------------------------------------------------------
+=02 LAYOUT STYLING
+-----------------------------------------------------------------------------*/
+
+.container {
+  position: relative;
+  height: 1350px;
+  width: 950px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333333;
+  height: 95px;
+  width: 950px;
+  position: absolute;
+  display: inline-block;
+}
+
+    ul li {
+      color: white;
+      list-style: none;
+      font-size: 23px;
+      display: inline-block;
+      margin-top: 20px;
+      margin-right: 60px;
+    }
+
+h1 {
+  font-size: 50px;
+}
+.main {
+  height: 1050px;
+  width: 900px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+.leftbox {
+  height: 500px;
+  width: 400px;
+  display: inline-block;
+}
+
+.rightbox {
+  height: 500px;
+  width: 450px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px;
+}
+
+.graybox {
+  background-color: #D8D8D8;
+  height: 300px;
+  width: 400px;
+}
+
+footer {
+  background-color: #333333;
+  height: 105px;
+  width: 950px;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+}
